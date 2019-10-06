@@ -1,27 +1,7 @@
-# TimerReport
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.5.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## What is the Idea of this app
+1. minimal application that use the client geolocation.
+2. have a list of work locations and a radius that recognize the user as in work.
+3. when user get into the radius he/she will notify if it should start timer of the current work.
+4. when user get out of the radius he/she will notify if it should stop timer of the current work.
+4.1. if user approve the situation he/she will need to fill extra data like description and specific project.
+5. pwa for easier usage

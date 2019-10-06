@@ -1,0 +1,5 @@
+<h1 mat-dialog-title>{{data.stop ? 'Stop' : 'Start'}} timer for <b>{{data.zone}}</b>?</h1>
+<div mat-dialog-actions>
+  <button mat-button (click)="cancel()">No Thanks</button>
+  <button mat-button [mat-dialog-close]="data" cdkFocusInitial>Yes Please</button>
+</div>
