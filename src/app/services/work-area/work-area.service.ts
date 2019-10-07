@@ -10,6 +10,8 @@ export interface ActiveZone {
   name: string;
   start?: number;
   end?: number;
+  project?: string;
+  desc?: string;
 }
 
 @Injectable({
