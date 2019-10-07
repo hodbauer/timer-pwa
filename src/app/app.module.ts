@@ -13,6 +13,7 @@ import { MatSelectModule } from '@angular/material/select';
 import { MatInputModule } from '@angular/material/input';
 import { ChooseProjectComponent } from './components/choose-project/choose-project.component';
 import { StatusComponent } from './components/status/status.component';
+import { CheckLocationComponent } from './components/check-location/check-location.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { StatusComponent } from './components/status/status.component';
     ZonesContainerComponent,
     TimerComponent,
     ChooseProjectComponent,
-    StatusComponent
+    StatusComponent,
+    CheckLocationComponent
   ],
   entryComponents: [ChooseProjectComponent, TimerComponent],
   imports: [

@@ -4,8 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build --base-href=/timer-pwa/",
-    "predeploy": "npm run build -- --prod",
+    "build:prod": "ng build --base-href=/timer-pwa/  --prod",
+    "predeploy": "npm run build:prod",
     "deploy": "ngh -d dist/timer-report",
     "help": "ngh --help",
     "test": "ng test",

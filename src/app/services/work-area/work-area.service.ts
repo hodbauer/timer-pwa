@@ -45,12 +45,6 @@ export class WorkAreaService {
         this.openTimerDialog({ zone: zone.name }).subscribe((result: ITimer) => {
           if (result) {
             this.startTimer(result.zone);
-            const data = { projects: this.projects.filter(project => project.zoneName === result.zone) };
-
-            this.dialog.open(ChooseProjectComponent, { data }).afterClosed().subscribe(project => {
-              console.log(project);
-              this.stopTimer(result.zone, project);
-            });
           }
         });
       }

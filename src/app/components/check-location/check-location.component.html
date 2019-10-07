@@ -1,0 +1,4 @@
+<div *ngIf="location | async as loc" style="display: flex; flex-direction: column">
+    <span>Latitude: {{loc.latitude | number : '2.5'}}</span>
+    <span>Longitude: {{loc.longitude | number : '2.5'}}</span>
+</div>
